@@ -1,4 +1,6 @@
-# Create React App
+# Create React App with TypeScript
+
+The source and tests use TypeScript with strict type checking. Run `npm run typecheck` to check types without building. Edit `src/App.tsx` to update the app.
 
 This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
 
@@ -11,6 +13,14 @@ Deploy your own Create React App project with Vercel.
 _Live Example: https://create-react-template.vercel.app/_
 
 ## Available Scripts
+
+### Styling
+
+Tailwind CSS 3 is configured for the Create React App build. Use utility classes in JSX, for example `className="text-3xl font-bold"`. Customize the theme in `tailwind.config.js`; global styles and Tailwind directives live in `src/index.css`. Run `npm run dev` for development or `npm run build` for production.
+
+### Formatting
+
+Prettier enforces 4-space indentation. Run `npm run format` to format all supported project files, or `npm run format:check` to check formatting without changing files. Generated build output, dependencies, and the npm lockfile are excluded.
 
 In the project directory, you can run:
 

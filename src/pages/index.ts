@@ -1,0 +1,10 @@
+export { default as Home } from "./Home";
+export { default as About } from "./About";
+export { default as Services } from "./Services";
+export { default as ServiceDetail } from "./ServiceDetail";
+export { default as NotFound } from "./NotFound";
+export { default as Bookings } from "./Bookings";
+export { default as ThankYou } from "./ThankYou";
+export { default as Singing } from "./Singing";
+export { default as Account } from "./Account";
+export { default as Login } from "./Login";
